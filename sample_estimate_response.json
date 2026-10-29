@@ -1,0 +1,181 @@
+{
+  "success": true,
+  "project": {
+    "type": "Bridge Construction",
+    "bridge_type": "RCC",
+    "location": "Assam, India",
+    "length_m": 100.0,
+    "width_m": 10.0,
+    "height_m": 8.0,
+    "spans_count": 5,
+    "span_length_m": 20.0,
+    "concrete_grade": "M35",
+    "steel_grade": "Fe500D",
+    "foundation_type": "Bored Cast-in-Situ RCC Piles (MoRTH Cl 2200)"
+  },
+  "estimation": {
+    "status": "preliminary",
+    "total_estimated_cost": 44460190.6,
+    "currency": "INR",
+    "cost_per_linear_metre": 444601.91,
+    "cost_per_sqm_deck": 44460.19
+  },
+  "components": [
+    {
+      "component_name": "Superstructure (Deck Slab, T-Girders, Cross Diaphragms, Crash Barriers)",
+      "concrete_volume_m3": 556.98,
+      "formwork_area_m2": 2312.86,
+      "steel_weight_tonnes": 72.41,
+      "description": "Includes 5 spans of 20.0m each with 4 longitudinal RCC T-girders per span."
+    },
+    {
+      "component_name": "Substructure (Pier Caps, Twin Circular Pier Shafts, Abutments, Wing Walls)",
+      "concrete_volume_m3": 416.92,
+      "formwork_area_m2": 990.61,
+      "steel_weight_tonnes": 41.69,
+      "description": "4 Intermediate Piers (H=8.0m) + 2 RCC Abutments with cantilever return walls."
+    },
+    {
+      "component_name": "Foundation (Bored Cast-in-Situ RCC Piles (MoRTH Cl 2200))",
+      "concrete_volume_m3": 1063.32,
+      "formwork_area_m2": 182.0,
+      "steel_weight_tonnes": 90.38,
+      "description": "40 Bored RCC Piles (Dia 1000mm, Avg L=20.0m) + RCC Pile Caps."
+    }
+  ],
+  "materials": [
+    {
+      "name": "Structural Concrete (M35 Grade)",
+      "category": "Concrete Works",
+      "quantity": 2037.22,
+      "unit": "m³",
+      "rate": 8200.0,
+      "amount": 16705204.0,
+      "formula_basis": "IS 10262 Design Mix (Cement, Aggregates, Sand, Admixtures, Batching & Pumping)"
+    },
+    {
+      "name": "Reinforcement Steel (Fe500D TMT)",
+      "category": "Steel Works",
+      "quantity": 204.48,
+      "unit": "tonne",
+      "rate": 84000.0,
+      "amount": 17176320.0,
+      "formula_basis": "MoRTH Sec 1600 / IRC 112: 130 kg/m³ (Superstructure), 100 kg/m³ (Substructure), 85 kg/m³ (Piles)"
+    },
+    {
+      "name": "Steel / Plywood Shuttering & Staging",
+      "category": "Formwork",
+      "quantity": 3485.47,
+      "unit": "m²",
+      "rate": 780.0,
+      "amount": 2718666.6,
+      "formula_basis": "MoRTH Sec 1500: Deck soffit, girder sides, pier columns & pile caps"
+    },
+    {
+      "name": "Ordinary Portland Cement (50kg bags)",
+      "category": "Constituent Materials",
+      "quantity": 16298.0,
+      "unit": "bags",
+      "rate": 420.0,
+      "amount": 6845160.0,
+      "formula_basis": "8.0 bags / m³ for M35 grade concrete (IS 456 / IS 10262)"
+    },
+    {
+      "name": "Coarse River Sand / Fine Aggregate",
+      "category": "Constituent Materials",
+      "quantity": 896.38,
+      "unit": "m³",
+      "rate": 1650.0,
+      "amount": 1479027.0,
+      "formula_basis": "0.44 m³ per m³ concrete (Zone-II graded river sand)"
+    },
+    {
+      "name": "Crushed Coarse Aggregate (10mm + 20mm)",
+      "category": "Constituent Materials",
+      "quantity": 1589.03,
+      "unit": "m³",
+      "rate": 2100.0,
+      "amount": 3336963.0,
+      "formula_basis": "0.78 m³ per m³ concrete (Hard granite/basalt broken stone)"
+    },
+    {
+      "name": "Bored Piling Rig Boring & Casing",
+      "category": "Foundation Specialized Works",
+      "quantity": 800.0,
+      "unit": "metre",
+      "rate": 4200.0,
+      "amount": 3360000.0,
+      "formula_basis": "40 piles @ avg depth 20.0m in alluvial riverbed"
+    },
+    {
+      "name": "Elastomeric Bridge Bearings (Neoprene/Pot)",
+      "category": "Bridge Appurtenances",
+      "quantity": 40.0,
+      "unit": "nos",
+      "rate": 45000.0,
+      "amount": 1800000.0,
+      "formula_basis": "MoRTH Sec 2000 / IRC 83: Bearings under each girder at pier caps and abutments"
+    },
+    {
+      "name": "Strip Seal Expansion Joints & Wearing Coat",
+      "category": "Bridge Deck Finishes",
+      "quantity": 1000.0,
+      "unit": "m²",
+      "rate": 1950.0,
+      "amount": 2700000.0,
+      "formula_basis": "MoRTH Sec 2600 & 2700: 65mm bituminous wearing course + movement joint seals"
+    }
+  ],
+  "cost_breakdown": {
+    "materials_cost": 25786910.55,
+    "labour_cost": 8002834.31,
+    "machinery_equipment_cost": 6224426.68,
+    "contractor_profit_and_overhead": 4446019.06,
+    "total_cost": 44460190.6,
+    "currency": "INR"
+  },
+  "civil_engineering_assumptions": [
+    "Economical span configuration: 5 spans @ 20.0m each (RCC T-Beam Deck & Girder system).",
+    "Design Concrete: Grade M35 design mix per IS 10262 & MoRTH Section 1700 (400 kg cement/m³, W/C ratio 0.40).",
+    "Reinforcement Steel: Grade Fe500D high ductility TMT rebars conforming to IS 1786.",
+    "Substructure: 4 intermediate piers with pier caps + 2 cantilever RCC abutments.",
+    "Foundation: Bored Cast-in-Situ RCC Piles (MoRTH Cl 2200) (40 piles @ avg 20.0m depth).",
+    "Design Live Loading: IRC Class 70R Tracked / 2-Lane Class A loading per IRC:6-2017.",
+    "Seismic Zone V (Highest hazard, Z=0.36): Special ductile detailing per IRC:112 and seismic arrestor brackets included."
+  ],
+  "source_references": [
+    {
+      "title": "IRC: 112-2020 Code of Practice for Concrete Road Bridges",
+      "code_reference": "IRC:112-2020",
+      "excerpt": "IRC:112-2020 stipulates structural concrete design guidelines for road bridges in India. For bridge superstructures (deck slabs, longitudinal T-beams, and box girders), the minimum concrete grade specified for severe/moderate exposure is M3...",
+      "relevance_score": 0.8161
+    },
+    {
+      "title": "Assam PWD Schedule of Rates (Bridge & Road Works 2023-2024)",
+      "code_reference": "Assam PWD SOR 2023-24",
+      "excerpt": "Assam PWD Schedule of Rates (Bridge Works 2023-2024) item benchmarks for Guwahati, Dibrugarh, and Silchar circles: 1. RCC M35 grade concrete in bridge superstructure (deck, girders, diaphragms) including mechanical batching, transit mixer c...",
+      "relevance_score": 0.8154
+    },
+    {
+      "title": "MoRTH Section 2100 & 2200 - Substructure and Pile Foundations",
+      "code_reference": "MoRTH 5th Revision",
+      "excerpt": "MoRTH Section 2100 & 2200 covers bridge piers, abutments, and deep foundations. In perennial rivers with alluvial soil beds (such as the Brahmaputra River Basin in Assam), bored cast-in-situ reinforced concrete piles of diameter 1000mm to 1...",
+      "relevance_score": 0.7766
+    },
+    {
+      "title": "IRC: 6-2017 Bridge Design Loads and Seismic Zone V Guidelines",
+      "code_reference": "IRC:6-2017",
+      "excerpt": "IRC:6-2017 prescribes live load and seismic standards for Indian highway bridges. Highway bridges on National & State Highways must be designed for IRC Class 70R tracked/wheeled vehicle loading or two lanes of IRC Class A wheeled loading, w...",
+      "relevance_score": 0.751
+    }
+  ],
+  "missing_inputs": [
+    "Approved General Arrangement Drawing (GAD) & structural drawings from certified civil structural engineer",
+    "Geotechnical Borelog Investigation Report (Soil bearing capacity, N-values, and depth to bedrock/firm strata)",
+    "Hydrological & Hydraulic Survey (High Flood Level - HFL, design discharge Q, and riverbed scour depth Lacey formula)",
+    "Local District Schedule of Rates (SOR) verification for active site district and quarry lead distances",
+    "Environmental Clearance (MoEFCC) and River Inland Waterways navigation clearance if applicable"
+  ],
+  "requires_engineer_review": true,
+  "ai_engineer_analysis": "**Engineering Evaluation**\n\n**1. Span Configuration and Material Ratios**\n\nThe proposed bridge span configuration and material ratios appear to be in compliance with IRC:112-2020 standards. The use of M35 concrete for the superstructure deck slabs, longitudinal T-beams, and box girders is acceptable for severe/moderate exposure conditions. However, the calculated rebar steel consumption of 204.48 tonnes is slightly higher than the recommended range of 120 to 140 kg per cubic metre of concrete, which translates to approximately 203.6 tonnes for the entire structure. This discrepancy may be due to the specific design requirements of the bridge, which may necessitate additional reinforcement to ensure ductility and seismic resistance.\n\n**2. Geotechnical and Seismic Precautions**\n\nThe project's geotechnical and seismic precautions are satisfactory, considering the Brahmaputra River Basin's alluvial soil bed and Seismic Zone V (Zone factor Z = 0.36) classification. The use of bored cast-in-situ reinforced concrete piles with a diameter of 1000mm to 1200mm, as per MoRTH 5th Revision, is appropriate for perennial rivers with alluvial soil beds. The elastomeric neoprene bearing pedestals and seismic arrestors on pier caps will provide adequate ductility and seismic resistance. However, it is essential to verify the maximum scour depth calculated using Lacey's Regime formula plus 1/3 embedment to ensure that the pile depth is sufficient to penetrate below the scour depth.\n\n**3. Recommendations for the Project Manager**\n\nBefore submitting this estimate to the construction management team, I recommend the following:\n\n* Verify the calculated rebar steel consumption to ensure it is within the recommended range of 120 to 140 kg per cubic metre of concrete.\n* Confirm that the elastomeric bearings with shear keys meet the IRC:83 Part II standards for piers.\n* Ensure that the seismic arrestors on pier caps are designed and installed according to IRC:112-2020 standards.\n* Review the strip seal type expansion joints to ensure they meet the Assam PWD SOR 2023-24 item benchmarks.\n\n**4. Estimated Cost and Value Engineering**\n\nThe estimated cost of ₹44,460,190.60 INR appears reasonable, considering the material costs and labor rates provided in the Assam PWD SOR 2023-24. However, value engineering opportunities should be explored to optimize the project's cost-effectiveness. This may involve reviewing the design and material selection to identify areas for cost reduction without compromising the structural integrity and seismic resistance of the bridge."
+}
